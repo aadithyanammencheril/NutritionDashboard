@@ -5,7 +5,7 @@ import numpy as np
 
 # Configure the page
 st.set_page_config(
-    page_title="🌱 Vegetarian Foods Nutrition Dashboard",
+    page_title="Vegetarian Foods Nutrition Dashboard",
     page_icon="🌱",
     layout="wide"
 )
@@ -263,26 +263,26 @@ def main():
     # Introduction and context
     with st.expander("ℹ️ About This Dashboard", expanded=False):
         st.markdown("""
-        ### 📊 What This Tool Does
+        ### What This Tool Does
         This interactive dashboard helps you explore and compare the nutritional content of vegetarian foods. 
         You can visualize nutritional profiles using various charts and discover top performers in each nutrient category.
         
-        ### 🔬 Data Source
+        ### Data Source
         All nutritional data is sourced from the **Indian Food Composition Tables (IFCT) 2017**, 
         published by the National Institute of Nutrition, Hyderabad. This is the most comprehensive 
         and authoritative database of Indian food nutrition available.
         
-        ### 🥗 What's Included
+        ### What's Included
         - **314 vegetarian food items** including vegetables, fruits, grains, legumes, dairy products, nuts, and more
         - **4 key nutrients**: Protein, Fat, Fiber, and Carbohydrates (per 100g)
         - **Interactive comparisons** and detailed nutritional profiles
         
-        ### ⚠️ Important Limitations
+        ### Important Limitations
         - **Vegetarian foods only** - No meat, fish, or poultry
         - **Basic nutrients only** - Vitamins, minerals, and other micronutrients not included
         - **Limited dataset** - This tool covers a subset of the full IFCT database
         
-        ### 📚 Want Complete Nutrition Data?
+        ### Want Complete Nutrition Data?
         For comprehensive nutritional information including vitamins, minerals, amino acids, and non-vegetarian foods, 
         refer to the complete **[IFCT 2017 PDF Database](https://www.nin.res.in/ebooks/IFCT2017.pdf)**.
         """)
@@ -347,7 +347,7 @@ def main():
         )
         
         # Add enhanced top performers chart
-        st.subheader("🏆 Top Nutritional Performers")
+        st.subheader("Top Nutritional Performers")
         
         with st.expander("💡 How to Use Top Performers", expanded=False):
             st.markdown("""
