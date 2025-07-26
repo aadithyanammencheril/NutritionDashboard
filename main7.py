@@ -20,7 +20,7 @@ def load_data():
         df = df.dropna()
         return df
     except FileNotFoundError:
-        st.error("Please upload your v1_veg.csv file to use this app.")
+        st.error("Please upload your csv file to use this app.")
         return None
 
 def create_radar_chart(selected_foods, df):
@@ -265,7 +265,7 @@ def main():
         st.markdown("""
         ### 📊 What This Tool Does
         This interactive dashboard helps you explore and compare the nutritional content of vegetarian foods. 
-        You can visualize nutritional profiles using radar charts and discover top performers in each nutrient category.
+        You can visualize nutritional profiles using various charts and discover top performers in each nutrient category.
         
         ### 🔬 Data Source
         All nutritional data is sourced from the **Indian Food Composition Tables (IFCT) 2017**, 
