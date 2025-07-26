@@ -6,7 +6,7 @@ import numpy as np
 # Configure the page
 st.set_page_config(
     page_title="Vegetarian Foods Nutrition Dashboard",
-    page_icon="🌱",
+    page_icon="",
     layout="wide"
 )
 
@@ -257,7 +257,7 @@ def main():
         return
     
     # Header with introduction
-    st.title("🌱 Vegetarian Foods Nutrition Dashboard")
+    st.title("Vegetarian Foods Nutrition Dashboard")
     st.markdown("*Interactive tool for comparing nutritional profiles of vegetarian foods*")
     
     # Introduction and context
@@ -274,7 +274,7 @@ def main():
         
         ### What's Included
         - **314 vegetarian food items** including vegetables, fruits, grains, legumes, dairy products, nuts, and more
-        - **4 key nutrients**: Protein, Fat, Fiber, and Carbohydrates (per 100g)
+        - **4 key nutrients**: Protein, Fat, Fiber, and Carbohydrates (All values are expressed per 100g edible portion)
         - **Interactive comparisons** and detailed nutritional profiles
         
         ### Important Limitations
